@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="da">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cecilie's Code Lab</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/globalnav.css" />
+    <link rel="stylesheet" href="css/filter.css" />
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Banner -->
+    <header>
+      <div class="banner">
+        <img src="imgs/edwardcullen.jpg" alt="" />
+
+        <h1>Cecilie's Code Lab</h1>
+      </div>
+
+      <!-- Global Navigation -->
+      <nav class="global-nav">
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="objectfit.html">Object Fit</a></li>
+          <li><a href="filter.html">Filter</a></li>
+          <li><a href="transition.html">Transition</a></li>
+          <li><a href="">Transformation</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Original billede + beskrivelse -->
+      <h2>Filter</h2>
+      <p>
+        Du kan style dine billeder med forskellige filtrer - der findes en del.
+        Jeg har prøvet at repræsentere dem igennem det her fantastiske billede
+        af Edward Cullen.
+      </p>
+      <div class="original">
+        <img src="imgs/smellyboy.jpg" alt="" />
+      </div>
+
+      <!-- galleri med filtrer -->
+      <h2>Edward Cullen i 10 filtre</h2>
+      <p>
+        Nedenfor, har jeg lavet nogle eksempler på de type af filtrer, man kan
+        lave i CSS. Du kan hover over hvert billede, for at se forskellen på
+        filteret og originalbilledet.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <img class="grayscale" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>grayscale</code></h3>
+          <p>sort-hvid. justeres med %. eksemplet er 100%</p>
+        </div>
+
+        <div class="card">
+          <img class="sepia" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>sepia</code></h3>
+          <p>sepia-filter, justeres med % - her ses 100%</p>
+        </div>
+
+        <div class="card">
+          <img class="blur" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>blur</code></h3>
+          <p>sløring. værdien er px. her ses 5px.</p>
+        </div>
+
+        <div class="card">
+          <img class="brightness" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>brightness</code></h3>
+          <p>lysner. værdi er %. her er 150%</p>
+        </div>
+
+        <div class="card">
+          <img class="contrast" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>contrast</code></h3>
+          <p>ændrer kontrast. her er 200%</p>
+        </div>
+
+        <div class="card">
+          <img class="saturate" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>saturate</code></h3>
+          <p>mætning. værdi er % - du ser 200%</p>
+        </div>
+
+        <div class="card">
+          <img class="huerotate" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>hue-rotate</code></h3>
+          <p>ændrer farvetonerne. værdi er grader. her ses 90deg</p>
+        </div>
+
+        <div class="card">
+          <img class="invert" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>invert</code></h3>
+          <p>negativ filter. værdi er %, her er 100%</p>
+        </div>
+
+        <div class="card">
+          <img class="opacity" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>opacity</code></h3>
+          <p>gennemsigtighed. værdi er %, og her ses 50%</p>
+        </div>
+
+        <div class="card">
+          <img class="dropshadow" src="imgs/smellyboy.jpg" alt="" />
+          <h3><code>drop-shadow</code></h3>
+          <p>
+            laver en cute skygge bag billedet. placeres med px i alle retninger,
+            og kan få en farve.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>@ceci-creations | Cecilie Knudsen 2026</p>
+    </footer>
+  </body>
+</html>

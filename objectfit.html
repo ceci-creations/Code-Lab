@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="da">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cecilie's Code Lab</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/globalnav.css" />
+    <link rel="stylesheet" href="css/obejctfit.css" />
+  </head>
+
+  <!-- Body -->
+  <body>
+    <!-- Banner -->
+    <header>
+      <div class="banner">
+        <img src="imgs/edwardcullen.jpg" alt="" />
+
+        <h1>Cecilie's Code Lab</h1>
+      </div>
+
+      <!-- Global Navigation -->
+      <nav class="global-nav">
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="objectfit.html">Object Fit</a></li>
+          <li><a href="filter.html">Filter</a></li>
+          <li><a href="transition.html">Transition</a></li>
+          <li><a href="">Transformation</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <section>
+        <h2>Object Fit</h2>
+        <p>
+          <code>object-fit</code> er en <b>property</b> der bestemmer
+          <i>hvordan</i> dit objekt fylder i dets boks. I dette tilfælde er det
+          et billede i mine <code>div</code>er.
+        </p>
+
+        <div class="grid">
+          <div class="card">
+            <img class="cover" src="imgs/edward2.jpg" alt="" />
+            <h3><code>object-fit: cover;</code></h3>
+            <p>
+              fylder hele boksen, og beskærer billedet hvor det er nødvendigt.
+            </p>
+          </div>
+
+          <div class="card">
+            <img class="contain" src="imgs/edward2.jpg" alt="" />
+            <h3><code>object-fit: contain;</code></h3>
+            <p>tilpasser billedet, så man kan se hele formatet i boksen.</p>
+          </div>
+
+          <div class="card">
+            <img class="coverpos" src="imgs/edward2.jpg" alt="" />
+            <h3><code>object-position: top left;</code></h3>
+            <p>kontrollerer hvilken del af billedet du vil have synligt</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>@ceci-creations | Cecilie Knudsen 2026</p>
+    </footer>
+  </body>
+</html>
